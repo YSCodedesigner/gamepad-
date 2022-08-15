@@ -1,0 +1,78 @@
+@media (max-width:1200px){
+
+}
+@media only screen and (max-width: 950px) {
+  .main-nav{
+  	display: none;
+  }
+  .mobile-menu span{
+  	display: block;
+  }
+}
+@media (max-width: 722px) {
+
+  .span_1_of_4{
+    width: 100%;
+  }
+  .span_1_of_3{
+    width: 100%;
+  }
+  .home-content {
+    top: 30%;
+    left: 22%;
+    transform: translate(-0%, -0%); 
+  }
+}
+@media (max-width: 500px) {
+  .hero-text{
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  .home-content h1 {
+    font-size: 52px;
+  }
+  .home-content h3 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .services .title {
+    color: #fff;
+    margin-top: 50px;
+    font-size: 43px;
+}
+}
+@media (max-width: 400px) {
+  .hero-text{
+    font-size: 44px;
+    margin-top: 100px;
+  }
+  .text {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+}
+@media (max-width:320px){
+
+.little-description {
+  width: 90%;
+  margin-left: 5%;
+  }
+  .for-overlay:hover .overlay1 {
+    -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  }
+  .banner-highlights h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  .home-content h1 {
+  font-size: 40px;
+  }
+  .home-content h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
